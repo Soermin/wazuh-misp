@@ -1,7 +1,7 @@
 # Wazuh Open Source Project 
 Wazuh merupakan platform keamanan siber dengan sumber terbuka atau open source yang menyediakan solusi SIEM (Security Information and Even Management) dan XDR (Extended Detection and Response). Singkatnya, Wazuh ini membantu kita dalam memantau, mendeteksi dan merespon ancaman keamanan dengan mengumpulkan, menganalisis dan mengelola log dari berbabagai sumber. 
 
-![image 164](https://github.com/user-attachments/assets/8bbfe147-b102-4aa1-a5da-e9f2c7428bcb)
+<img width="1855" height="929" alt="image" src="https://github.com/user-attachments/assets/c314373c-3223-445e-bbe3-ecb9a17917a3" />
 
 
 Meskipun gratis, Wazuh menjadi salah satu platform keamanan yang patut dipertimbangkan. Salah satu alasannya adalah: 
