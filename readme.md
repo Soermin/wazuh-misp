@@ -1,5 +1,5 @@
 # Wazuh Open Source Project 
-Wazuh merupakan platform keamanan siber dengan sumber terbuka atau open source yang menyediakan solusi SIEM (Security Information and Even Management) dan XDR (Extended Detection and Response). Singkatnya, Wazuh ini membantu kita dalam memantau, mendeteksi dan merespon ancaman keamanan dengan mengumpulkan, menganalisis dan mengelola log dari berbabagai sumber. 
+Wazuh merupakan platform keamanan siber dengan sumber terbuka atau open source yang menyediakan solusi SIEM (Security Information and Even Management) dan kali ini kita akan mengintegrasikan Wazuh dengan MISP (Malware Information Sharing Platform). Proyek ini bertujuan untuk mengotomatisasi deteksi ancaman dengan cara menarik Indikator Kompromi (IOC) dari MISP dan mengaplikasikannya secara otomatis pada agen-agen Wazuh.
 
 <img width="1855" height="929" alt="image" src="https://github.com/user-attachments/assets/c314373c-3223-445e-bbe3-ecb9a17917a3" />
 
