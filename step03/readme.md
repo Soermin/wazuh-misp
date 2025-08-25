@@ -1,4 +1,4 @@
-## Active-response 
+## Step 03 - Active-response 
 
 We can do many custom **active-response** on wazuh. But on the basic active-response, we can activate it to block brute force attacks.
 

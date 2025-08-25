@@ -8,7 +8,7 @@ In the previous series, we have successfully installed Wazuh as our open source 
 - Integration with **MISP** for threat intelligence.
 - Custom Active Response.
 - Automatically alternating with custom rules.
-- Integration with **Telegram**
+
 
 ## Architecture
 
