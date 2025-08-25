@@ -28,4 +28,4 @@ misp_base_url = "your-misp-url"
 misp_api_auth_key = "your-misp-auth-key"
 ```
 
-Next to Step 01.......
+**Next to Step 01.......**
