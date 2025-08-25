@@ -19,4 +19,4 @@ chmod 750 /var/ossec/integrations/custom-misp*
   </integration>
 ```
 
-- **Next to Step 01**
+Next to Step 01.......
