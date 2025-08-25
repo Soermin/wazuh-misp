@@ -17,7 +17,7 @@ Add configuration in /var/ossec/etc/ossec.conf
     <disabled>no</disabled>
     <command>firewall-drop</command>
     <location>local</location>
-    <rules_id>100622,5705,5712,120100,5763</rules_id>
+    <rules_id>100622,5705,5712,120100,5763</rules_id> #rule abou ssh access 
     <timeout>864001</timeout>
   </active-response>
 
