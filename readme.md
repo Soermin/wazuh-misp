@@ -13,8 +13,7 @@ In the previous series, we have successfully installed Wazuh as our open source 
 ## Architecture
 
 <img width="1855" height="929" alt="image" src="arsitektur.png" />
-
-#### Event types / Rule groups to trigger MISP API calls
+Event types / Rule groups to trigger MISP API calls
 
 | Event Type              | Metadata (Win / Linux)                | Rationale                                                      |
 |--------------------------|---------------------------------------|----------------------------------------------------------------|
