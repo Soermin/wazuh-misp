@@ -19,4 +19,13 @@ chmod 750 /var/ossec/integrations/custom-misp*
   </integration>
 ```
 
+- **Edit `custom-misp.py`**
+
+Do not forget to change some configuration in `custom-misp.py`
+
+```
+misp_base_url = "your-misp-url"
+misp_api_auth_key = "your-misp-auth-key"
+```
+
 Next to Step 01.......
