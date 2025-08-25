@@ -26,6 +26,7 @@ Event types / Rule groups to trigger MISP API calls
 | Wazuh Syscheck (Files)  | `syscheck.sha256_after`               | Check existing IoCs in files added/modified/removed (file hash)|
 
 
+
 If there are any obstacles, be sure to always read/access official documentation: https://documentation.wazuh.com/
 Thank you for using this guide. Good luck! 🙌
 
