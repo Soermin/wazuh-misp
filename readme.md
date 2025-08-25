@@ -31,6 +31,7 @@ Event types / Rule groups to trigger MISP API calls
 
 
 If there are any obstacles, be sure to always read/access official documentation: https://documentation.wazuh.com/
+
 Thank you for using this guide. Good luck! 🙌
 
 
