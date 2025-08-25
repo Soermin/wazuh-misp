@@ -2,7 +2,7 @@
 
 - **Add Repository**
 
-Dalam langkah pertama, anda bisa membuat/copy file `custom-misp` dan `custom-misp.py` kedalam direktori `/var/ossec/integration`
+In the first step, you can create/copy the `custom-misp` and `custom-misp.py` files into the `/var/ossec/integration` directory.
 
 - **Fix Permission**
 ```
@@ -18,3 +18,5 @@ chmod 750 /var/ossec/integrations/custom-misp*
     <alert_format>json</alert_format>
   </integration>
 ```
+
+- **Next to Step 01**
