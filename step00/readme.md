@@ -1,6 +1,7 @@
 ## Step 00 - Custom Integration
 
 - **Add Repository**
+
 Dalam langkah pertama, anda bisa membuat/copy file `custom-misp` dan `custom-misp.py` kedalam direktori `/var/ossec/integration`
 
 - **Fix Permission**
