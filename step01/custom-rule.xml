@@ -5,7 +5,6 @@
     <description>MISPs</description>
     <options>no_log</options>
   </rule>
-
 </group>
 
 <group name="Error, misp_alert,">
