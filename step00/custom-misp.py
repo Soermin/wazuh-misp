@@ -190,26 +190,6 @@ elif event_source == 'ossec' and (event_type == "syscheck_entry_added" or event_
         if md5_after == "d41d8cd98f00b204e9800998ecf8427e":
             sys.exit()
         misp_search_and_alert(md5_after, alert_output, alert, file_path=file_path)
-
-elif event_source == 'web' and (event_type == 'web_scan' or event_type == 'attack'):
-    try:
-        wazuh_event_param = alert["data"].get("srcip")
-        found = misp_search_and_alert(wazuh_event_param, alert_output, alert, extra_fields={"srcip": wazuh_event_param})
-        if found:
-            with open('/var/ossec/etc/lists/misp_ip_lists.txt', 'a') as file:
-                file.write(wazuh_event_param + '\n')
-    except Exception:
-        sys.exit()
-
-elif event_source == 'syslog' and event_type == 'authentication_failed':
-    try:
-        wazuh_event_param = alert["data"].get("srcip")
-        found = misp_search_and_alert(wazuh_event_param, alert_output, alert, extra_fields={"srcip": wazuh_event_param})
-        if found:
-            with open('/var/ossec/etc/lists/misp_ip_lists.txt', 'a') as file:
-                file.write(wazuh_event_param + '\n')
-    except Exception:
-        sys.exit()
 else:
     sys.exit()
 
